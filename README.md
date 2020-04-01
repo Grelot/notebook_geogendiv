@@ -2,7 +2,11 @@
 A jupyter notebook work using R-package geogendiv
 
 
-# R with jupyter notebook in linux
+# Installation 
+
+## R with jupyter notebook in linux
+
+R 3.6 
 
 https://marcocarnini.github.io/software/2016/08/01/installing-r-kernel-for-jupyter.html
 
@@ -16,4 +20,21 @@ The installation of the R kernel for Jupyter is performed under R command line (
 install.packages(c('pbdZMQ', 'repr', 'devtools')) 
 devtools::install_github('IRkernel/IRkernel') 
 IRkernel::installspec()
+```
+## R packages
+
+see [INSTALL.R](INSTALL.R)
+
+
+## conda environment
+
+```
+conda env create -f conda/notebook_env.yml
+conda activate mapmarine2
+```
+
+```
+## R 3.6
+IRkernel::installspec()
+
 ```
