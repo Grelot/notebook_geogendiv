@@ -36,5 +36,6 @@ conda activate mapmarine2
 ```
 ## R 3.6
 IRkernel::installspec()
-
+devtools::install_github("grelot/geogendivrdata", force = TRUE)
+install.packages("rfishbase")
 ```
