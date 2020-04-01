@@ -1,0 +1,47 @@
+name: mapmarine2
+channels:
+  - conda-forge
+  - conda-forge/label/gcc7
+  - bioconda
+  - bioconda/label/gcc7
+  - r
+dependencies:
+  - jupyter=1.0.0
+  - r-pbdzmq
+  - r-repr
+  - r-devtools  
+  - r-irkernel
+  - libblas
+  - r=3.6.*
+  - r-rcpp=1.0.1
+  - r-geonames=0.999
+  - r-data.table=1.12.2
+  - r-stringi=1.4.5
+  - r-mclust=5.4.5
+  - bioconductor-preprocesscore=1.48.0
+  - r-classint 0.4.1
+  - r-taxize=0.9.*
+  - r-rgdal=1.4.4
+  - r-rgeos=0.5.1
+  - r-dplyr=0.8.3
+  - r-sf=0.8
+  - r-tidyverse=1.2.1
+  - r-biocmanager=1.30.4
+  - r-bold=0.9.0
+  - bioconductor-sangerseqr=1.22.0
+  - r-ggplot2=3.1.1
+  - bioconductor-muscle=3.28.0
+  - r-raster=3.*
+  - r-countrycode=1.1.0
+  - r-mass
+  - r-lme4
+  - r-shape
+  - r-visreg
+  - r-betareg=3.*
+  - r-spatial=7.*
+  - r-hier.part
+  - r-gridextra=2.3
+  - bioconductor-biostrings=2.54.0
+  - r-adegenet 
+  - r-pegas
+  - r-rnaturalearthdata
