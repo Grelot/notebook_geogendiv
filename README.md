@@ -1,6 +1,8 @@
 # notebook_geogendiv
 A jupyter notebook work using R-package geogendiv
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Grelot/notebook_geogendiv/master)
+
 
 # Installation 
 
