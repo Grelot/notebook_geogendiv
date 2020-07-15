@@ -1,4 +1,4 @@
-name: mapmarine2
+name: notebook_mapmarine2
 channels:
   - conda-forge
   - conda-forge/label/gcc7
